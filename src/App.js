@@ -1,5 +1,4 @@
 import "./App.css";
-import AllRoutes from "./Components/AllRoutes";
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
@@ -11,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <AllRoutes /> */}
       <Home />
       <About />
       <Skills />

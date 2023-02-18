@@ -4,12 +4,7 @@ import React from "react";
 const Home = () => {
   return (
     <Box id="home" w="100%">
-      <Flex
-        direction={"column"}
-        // h={window.height}
-        padding="50px"
-        // alignItems="center"
-      >
+      <Flex direction={"column"} padding="50px">
         <Box mt="100px" mb="100px" mr="50%">
           <Heading>Govind Pullagura</Heading>
           <Text fontSize={"20px"}>Full Stack Web Developer</Text>

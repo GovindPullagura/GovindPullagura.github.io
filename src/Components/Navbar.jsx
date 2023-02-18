@@ -1,7 +1,9 @@
-import { Box, Flex, Heading, Spacer } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Spacer } from "@chakra-ui/react";
 import React from "react";
 // import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
+import resume from "../downloads/Govind_Pullagura.pdf";
+import { TbDownload } from "react-icons/tb";
 
 const Navbar = () => {
   return (
@@ -81,6 +83,23 @@ const Navbar = () => {
           >
             Contact
           </Link>
+          <Spacer />
+          <a
+            id="resume-button-1"
+            href={resume}
+            rel="noreferrer"
+            target="_blank"
+            download
+          >
+            <Button
+              h="30px"
+              color="white"
+              bgColor={"rgb(1,31,43)"}
+              _hover={{ bgColor: "rgb(1,11,23)" }}
+            >
+              <TbDownload /> Resume
+            </Button>
+          </a>
           <Spacer />
         </Flex>
       </Box>
