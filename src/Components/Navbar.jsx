@@ -35,7 +35,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className="nav-link.home"
+            className=".nav-link.home"
           >
             Home
           </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className="nav-link.about"
+            className=".nav-link.about"
           >
             About
           </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className="nav-link.skills"
+            className=".nav-link.skills"
           >
             Skills
           </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className="nav-link.projects"
+            className=".nav-link.projects"
           >
             Projects
           </Link>
@@ -79,13 +79,13 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className="nav-link.contact"
+            className=".nav-link.contact"
           >
             Contact
           </Link>
           <Spacer />
           <a
-            id="resume-button-1"
+            id=".resume-button-1"
             href={resume}
             rel="noreferrer"
             target="_blank"
