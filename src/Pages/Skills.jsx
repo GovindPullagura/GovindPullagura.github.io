@@ -15,7 +15,7 @@ export default function Skills() {
           mt="30px"
           gap={"20px"}
         >
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -26,7 +26,7 @@ export default function Skills() {
               HTML
             </Text>
           </GridItem>
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -37,7 +37,7 @@ export default function Skills() {
               JavaScript
             </Text>
           </GridItem>
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -48,7 +48,7 @@ export default function Skills() {
               CSS
             </Text>
           </GridItem>
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -59,7 +59,7 @@ export default function Skills() {
               React
             </Text>
           </GridItem>
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -70,7 +70,7 @@ export default function Skills() {
               Redux
             </Text>
           </GridItem>
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -82,7 +82,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -94,7 +94,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -106,7 +106,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -118,7 +118,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -143,7 +143,7 @@ export default function Skills() {
           mt="30px"
           gap={"20px"}
         >
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -155,7 +155,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -167,7 +167,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -179,7 +179,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -191,7 +191,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px">
+          <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"

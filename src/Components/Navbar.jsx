@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Spacer } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Spacer, Text } from "@chakra-ui/react";
 import React from "react";
 // import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
@@ -6,6 +6,11 @@ import resume from "../downloads/Govind_Pullagura.pdf";
 import { TbDownload } from "react-icons/tb";
 
 const Navbar = () => {
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1Fy-6_JMo3INGG1ygBa3cgtjyxWNymHT9/view?usp=share_link"
+    );
+  };
   return (
     <Flex
       direction={["column", "column", "row"]}
@@ -29,15 +34,8 @@ const Navbar = () => {
       <Spacer />
       <Box w="60%">
         <Flex direction={["column", "column", "row"]}>
-          <Link
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-            className=".nav-link.home"
-          >
-            Home
+          <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
+            <Text className="nav-link home"> Home</Text>
           </Link>
           <Spacer />
           <Link
@@ -46,7 +44,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className=".nav-link.about"
+            className="nav-link about"
           >
             About
           </Link>
@@ -57,7 +55,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className=".nav-link.skills"
+            className="nav-link skills"
           >
             Skills
           </Link>
@@ -68,7 +66,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className=".nav-link.projects"
+            className="nav-link projects"
           >
             Projects
           </Link>
@@ -79,23 +77,25 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             duration={500}
-            className=".nav-link.contact"
+            className="nav-link contact"
           >
             Contact
           </Link>
           <Spacer />
           <a
-            id=".resume-button-1"
             href={resume}
+            className="nav-link resume"
             rel="noreferrer"
             target="_blank"
             download
           >
             <Button
+              id="resume-button-1"
               h="30px"
               color="white"
               bgColor={"rgb(1,31,43)"}
               _hover={{ bgColor: "rgb(1,11,23)" }}
+              onClick={handleClick}
             >
               <TbDownload /> Resume
             </Button>
