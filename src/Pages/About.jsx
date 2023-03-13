@@ -31,7 +31,7 @@ const About = () => {
         <Image
           id="github-streak-stats"
           h="195px"
-          src="https://github-readme-streak-stats.herokuapp.com?user=GovindPullagura"
+          src="https://streak-stats.demolab.com/?username=govindpullagura"
         />
 
         <GitHubCalendar
