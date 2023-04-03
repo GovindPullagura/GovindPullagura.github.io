@@ -6,6 +6,7 @@ import {
   Text,
   Button,
   Spacer,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import React from "react";
 import resume from "../downloads/Govind_Pullagura.pdf";
@@ -19,8 +20,8 @@ const Home = () => {
   };
   return (
     <Box id="home" w="100%">
-      <Flex direction={"column"} padding="50px">
-        <Box mt="100px" mb="100px" mr="50%">
+      <Flex direction={"column"}>
+        <Box textAlign={"center"} mt="100px" mb="100px">
           <Heading>Govind Pullagura</Heading>
           <Text fontSize={"20px"}>Full Stack Web Developer</Text>
         </Box>

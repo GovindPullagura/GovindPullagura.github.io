@@ -7,13 +7,14 @@ const About = () => {
     <Box id="about" className="about section" textAlign={"center"} mt="100px">
       <Heading>About</Heading>
       <br />
-      <Box textAlign={"center"} width={"60%"} m="auto" alignItems={"center"}>
-        <Text id="user-detail-intro" fontSize={"20px"}>
+      <Box textAlign={"center"} width={"80%"} m="auto" alignItems={"center"}>
+        <Text id="user-detail-intro" fontSize={{ base: "15px", md: "20px" }}>
           An enthusiastic Full Stack Web Developer specialised in MERN stack
           from Masai School. Having the knowledge to write web application pages
-          using React, Chakra UI, Redux, Node JS etc. Looking for a job
-          opportunity in a technology driven organisation that would enhance
-          one's career and technical knowledge and to showcase one's skills.
+          using HTML, JavaScript, React, Chakra UI, Redux, Node JS etc. Looking
+          for a job opportunity in a technology driven organisation that would
+          enhance one's career and technical knowledge and to showcase one's
+          skills.
         </Text>
       </Box>
       <br />
@@ -31,7 +32,7 @@ const About = () => {
         <Image
           id="github-streak-stats"
           h="195px"
-          src="https://streak-stats.demolab.com/?username=govindpullagura"
+          src="https://github-readme-streak-stats.herokuapp.com?user=govindPullagura"
         />
 
         <GitHubCalendar

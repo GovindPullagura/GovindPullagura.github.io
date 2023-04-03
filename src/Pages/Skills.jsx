@@ -82,7 +82,7 @@ export default function Skills() {
             </Text>
           </GridItem>
 
-          <GridItem m="auto" h="100px" className="skills-card">
+          {/* <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
               m="auto"
@@ -92,7 +92,7 @@ export default function Skills() {
             <Text fontSize={"15px"} className="skills-card-name">
               DSA
             </Text>
-          </GridItem>
+          </GridItem> */}
 
           <GridItem m="auto" h="100px" className="skills-card">
             <Image
@@ -129,6 +129,18 @@ export default function Skills() {
               Express Js
             </Text>
           </GridItem>
+
+          <GridItem m="auto" h="100px" className="skills-card">
+            <Image
+              h="70px"
+              m="auto"
+              className="skills-card-img"
+              src="https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png"
+            />
+            <Text fontSize={"15px"} className="skills-card-name">
+              TypeScript
+            </Text>
+          </GridItem>
         </Grid>
       </Box>
 
@@ -143,6 +155,17 @@ export default function Skills() {
           mt="30px"
           gap={"20px"}
         >
+          <GridItem m="auto" h="100px" className="skills-card">
+            <Image
+              h="70px"
+              m="auto"
+              className="skills-card-img"
+              src="https://cdn.iconscout.com/icon/premium/png-256-thumb/data-structures-and-algorithms-5530325-4619143.png?f=avif&w=256"
+            />
+            <Text fontSize={"15px"} className="skills-card-name">
+              DSA
+            </Text>
+          </GridItem>
           <GridItem m="auto" h="100px" className="skills-card">
             <Image
               h="70px"
