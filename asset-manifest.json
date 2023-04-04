@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.6d7ddd60.css",
-    "main.js": "/static/js/main.a3844257.js",
+    "main.js": "/static/js/main.c28d48d8.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/healthistic.png": "/static/media/healthistic.0cd1972dbbe58f80c8ed.png",
     "static/media/fatsecret.gpg.png": "/static/media/fatsecret.gpg.7fdb3cca6116034d034f.png",
     "static/media/gcmall.png": "/static/media/gcmall.3c1220a569280cae66c4.png",
     "static/media/indishop.png": "/static/media/indishop.91449de6d36ae2c707f5.png",
-    "static/media/Govind_Pullagura.pdf": "/static/media/Govind_Pullagura.98996f6fa7156bd3787e.pdf",
+    "static/media/Govind_Pullagura.pdf": "/static/media/Govind_Pullagura.8db837eb1559b308af16.pdf",
     "static/media/GovindPullagura.png": "/static/media/GovindPullagura.8cdff83b4e65091b9edb.png",
     "index.html": "/index.html",
     "main.6d7ddd60.css.map": "/static/css/main.6d7ddd60.css.map",
-    "main.a3844257.js.map": "/static/js/main.a3844257.js.map",
+    "main.c28d48d8.js.map": "/static/js/main.c28d48d8.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d7ddd60.css",
-    "static/js/main.a3844257.js"
+    "static/js/main.c28d48d8.js"
   ]
 }
