@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d7ddd60.css",
-    "main.js": "/static/js/main.a27b2b34.js",
+    "main.js": "/static/js/main.b2172aaa.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/healthistic.png": "/static/media/healthistic.0cd1972dbbe58f80c8ed.png",
     "static/media/fatsecret.gpg.png": "/static/media/fatsecret.gpg.7fdb3cca6116034d034f.png",
@@ -10,11 +10,11 @@
     "static/media/Govind_Pullagura.pdf": "/static/media/Govind_Pullagura.98996f6fa7156bd3787e.pdf",
     "index.html": "/index.html",
     "main.6d7ddd60.css.map": "/static/css/main.6d7ddd60.css.map",
-    "main.a27b2b34.js.map": "/static/js/main.a27b2b34.js.map",
+    "main.b2172aaa.js.map": "/static/js/main.b2172aaa.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d7ddd60.css",
-    "static/js/main.a27b2b34.js"
+    "static/js/main.b2172aaa.js"
   ]
 }
